@@ -4,7 +4,7 @@ public class Studente {
 
     private String cognome;
 
-    private int identificativo = 0;
+    private int identificativo;
 
     public Studente(String nome, String cognome, int identificativo) {
         this.nome = nome;
