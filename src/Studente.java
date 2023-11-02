@@ -1,9 +1,7 @@
 public class Studente {
 
     private String nome;
-
     private String cognome;
-
     private int identificativo;
 
     public Studente(String nome, String cognome, int identificativo) {
@@ -30,9 +28,8 @@ public class Studente {
     public int getIdentificativo(){
         return identificativo;
     }
-    public int setIdentificativo(int identificativo){
+    public void setIdentificativo(int identificativo){
         this.identificativo = identificativo;
-        return identificativo;
     }
 
     @Override

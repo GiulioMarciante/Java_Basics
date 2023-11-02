@@ -7,7 +7,6 @@ public class StudenteMain {
         System.out.println("il cognome dello studente1 è:" + studente1.getCognome());
         System.out.println("il cognome dello studente1 è cambiato in:" + studente1.setCognome(" Marciante "));
         System.out.println("l'indentificativo dello studente1 è: " + studente1.getIdentificativo());
-        System.out.println("l'identificativo dello studentee1 è cambiato in: " + studente1.setIdentificativo(5));
         System.out.println("i dati dello studente1 sono : " + studente1);
     }
 }
