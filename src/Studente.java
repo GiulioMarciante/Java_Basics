@@ -31,7 +31,6 @@ public class Studente {
     public void setIdentificativo(int identificativo){
         this.identificativo = identificativo;
     }
-
     @Override
     public String toString() {
         return "Studente{" +
