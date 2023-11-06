@@ -1,3 +1,5 @@
+package getter1;
+
 public class Studente {
 
     private String nome;
@@ -33,7 +35,7 @@ public class Studente {
     }
     @Override
     public String toString() {
-        return "Studente{" +
+        return "getter1.Studente{" +
                 "nome='" + nome + '\'' +
                 ", cognome='" + cognome + '\'' +
                 ", identificativo=" + identificativo +

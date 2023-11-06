@@ -1,3 +1,7 @@
+package getter1;
+
+import getter1.Studente;
+
 public class StudenteMain {
     public static void main(String[] args) {
         Studente studente1 = new Studente(" Fabio ", " Genovese ",1);

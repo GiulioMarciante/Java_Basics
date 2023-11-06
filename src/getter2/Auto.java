@@ -1,3 +1,5 @@
+package getter2;
+
 public class Auto {
     private int cilindrata;
 
@@ -45,7 +47,7 @@ public class Auto {
 
     @Override
     public String toString() {
-        return "Auto{" +
+        return "getter2.Auto{" +
                 "cilindrata=" + cilindrata +
                 ", targa='" + targa + '\'' +
                 ", marca='" + marca + '\'' +
