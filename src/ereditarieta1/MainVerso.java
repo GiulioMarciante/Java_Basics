@@ -1,7 +1,4 @@
-package ereditarietà1;
-
-import ereditarietà1.Animale;
-import ereditarietà1.Gatto;
+package ereditarieta1;
 
 public class MainVerso {
     public static void main(String[] args) {

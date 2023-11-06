@@ -1,6 +1,4 @@
-package ereditarietà1;
-
-import ereditarietà1.Animale;
+package ereditarieta1;
 
 public class Gatto extends Animale {
 

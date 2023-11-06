@@ -1,4 +1,4 @@
-package ereditarietà1;
+package ereditarieta1;
 
 public class Animale {
 
