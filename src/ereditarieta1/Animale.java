@@ -1,9 +1,7 @@
 package ereditarieta1;
 
 public class Animale {
-    public String versoAnimale = "verso animale";
-
-    public void faiIlVerso(){
-        System.out.println(versoAnimale);
+    public void animalSound(){
+        System.out.println("The animal goes: ");
     }
 }

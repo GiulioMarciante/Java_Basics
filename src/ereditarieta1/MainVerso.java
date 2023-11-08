@@ -7,8 +7,8 @@ public class MainVerso {
 
         Gatto gatto = new Gatto();
 
-        animale.faiIlVerso();
+        animale.animalSound();
 
-        gatto.faiIlVerso();
+        gatto.animalSound();
     }
 }
