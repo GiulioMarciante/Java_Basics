@@ -1,4 +1,4 @@
-package ereditarieta2;
+package polimorfismo1;
 
 public class Triangolo extends Forma {
     @Override

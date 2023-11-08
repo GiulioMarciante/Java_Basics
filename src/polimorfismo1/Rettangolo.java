@@ -1,4 +1,4 @@
-package ereditarieta2;
+package polimorfismo1;
 
 public class Rettangolo extends Forma {
     @Override
@@ -9,9 +9,11 @@ public class Rettangolo extends Forma {
 
         Forma forma = new Forma();
         Rettangolo rettangolo = new Rettangolo();
+        Triangolo triangolo = new Triangolo();
 
         forma.calcolaArea();
         rettangolo.calcolaArea();
+        triangolo.calcolaArea();
     }
  }
 
