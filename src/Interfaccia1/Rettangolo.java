@@ -3,7 +3,6 @@ package Interfaccia1;
 public class Rettangolo implements Forma {
 
     double base = 5;
-
     double altezza = 10;
 
     public Rettangolo(double base, double altezza){

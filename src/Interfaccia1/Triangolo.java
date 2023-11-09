@@ -1,11 +1,8 @@
 package Interfaccia1;
 
 public class Triangolo implements Forma {
-
     double base = 5;
-
     double altezza = 10;
-
     public Triangolo(double base, double altezza){
         this.base = base;
         this.altezza = altezza;
