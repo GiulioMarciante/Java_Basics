@@ -1,18 +1,15 @@
 package Enum1;
 
 public class Rettangolo extends Forma {
-    double base;
-    double altezza;
 
-    public Rettangolo(double base, double altezza, tipoForma forma) {
-        this.base = base;
-        this.altezza = altezza;
+    public Rettangolo (double base, double altezza) {
+        super(base, altezza, TipoForma.Rettangolo);
     }
 
     @Override
-    public double CalcolaArea() {
+    public double calcolaArea() {
         double area = base*altezza;
-        System.out.println("Il calcolo dell'area del " + tipoForma.Rettangolo+ " è: "  + area );
-        return 0;
+        System.out.println("Il calcolo dell'area del " + TipoForma.Rettangolo+ " è: "  + area );
+        return area;
     }
 }
