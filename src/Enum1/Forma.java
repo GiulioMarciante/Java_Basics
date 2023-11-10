@@ -1,6 +1,10 @@
 package Enum1;
-
-
-interface Forma {
-    double CalcolaArea();
+enum tipoForma{
+    Rettangolo,
+    Triangolo
+}
+public class Forma {
+    public double CalcolaArea(){
+        return 0;
+    }
 }

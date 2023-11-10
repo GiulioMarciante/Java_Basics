@@ -1,17 +1,12 @@
 package Enum1;
 
-public class Rettangolo implements Forma {
-    enum tipoForma{
-        Rettangolo
-    }
-    double base = 5;
-    double altezza = 10;
-    private final tipoForma forma;
+public class Rettangolo extends Forma {
+    double base;
+    double altezza;
 
     public Rettangolo(double base, double altezza, tipoForma forma) {
         this.base = base;
         this.altezza = altezza;
-        this.forma = forma;
     }
 
     @Override
