@@ -5,14 +5,11 @@ public class Main {
 
         String word = "La macchina di filippo";
 
-        int index = 5;
-
-        StringBuilder result = findUnicodeInWord(word, index);
+        String result = findUnicodeInWord(word, 7);
 
         System.out.println(result);
     }
-
-    public static StringBuilder findUnicodeInWord(String word, int index) {
+    public static String findUnicodeInWord(String word, int index) {
 
         StringBuilder answer = new StringBuilder();
 
@@ -21,6 +18,6 @@ public class Main {
         } else {
             answer.append(word.codePointAt(index));
         }
-        return answer;
+        return answer.toString();
     }
 }

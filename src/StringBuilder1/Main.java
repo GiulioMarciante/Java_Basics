@@ -8,21 +8,22 @@ public class Main {
 
         String word1 = "Patata e Banana";
 
-        String word2 = "Patata e Banana";
+        String word2 = "Patata ";
 
         System.out.println(compareWords(word1, word2));
     }
 
-    public static StringBuilder compareWords(String word1, String word2) {
+    public static String compareWords(String word1, String word2) {
 
         int result = word1.compareTo(word2);
 
         StringBuilder answer = new StringBuilder();
+        answer.append("Le due stringhe sono ");
 
         if (result != 0) {
-            answer.append("Le due stringhe sono differenti");
-        } else answer.append("Le due stringhe sono uguali");
+            answer.append("differenti");
+        } else answer.append("uguali");
 
-        return answer;
+        return answer.toString();
     }
 }
