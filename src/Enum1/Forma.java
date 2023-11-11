@@ -3,7 +3,6 @@ package Enum1;
 public class Forma {
     double base;
     double altezza;
-
     TipoForma tipo;
     public Forma (double base, double altezza, TipoForma tipo) {
         this.base = base;

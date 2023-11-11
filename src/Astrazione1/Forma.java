@@ -11,5 +11,5 @@ public abstract class Forma {
         return altezza;
     }
 
-    public abstract void calcolaArea();
+    public abstract double calcolaArea();
 }
